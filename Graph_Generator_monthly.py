@@ -16,9 +16,6 @@ def generate_graph():
         for value in temp4:
             year_month  = str(value.replace('(','').replace(')','').translate(None,"'").split(',')[0])
             price  = int(value.replace('(','').replace(')','').translate(None,"'").split(',')[1])
-            print "APPENDING"
-            print year_month
-            print price
             if '99' in year_month:
                 continue
             x_axis_list.append(year_month)
