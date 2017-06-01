@@ -1,8 +1,5 @@
 #!/usr/local/bin/python
-
-
 import sys
-
 def get_date_city_value(set_value):
     temp = set_value.translate(None,'()')
     temp = temp.split(',')
