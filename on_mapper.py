@@ -25,7 +25,3 @@ for line in sys.stdin:
             value = (date,price)
         value = (centre,date)
         print('{0}\t{1}'.format(value,str(price)))
-        #index = index + 1
-        #if index > 500:
-        #    break
-
