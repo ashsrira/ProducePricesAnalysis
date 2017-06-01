@@ -5,7 +5,7 @@
 <br>
 The aim of this project to is understand and the produce price trends across Major cities in India from the year 2000-2012. The dataset is provided by the Goverment of India's Online Portal.
 
-Using Hadoop running in a pesudo-distributed mode, Map Reduce Jobs were run across the data set to compute:
+Using Hadoop running in a pseudo-distributed mode, Map Reduce Jobs were run across the data set to compute:
 <br>
 1.) Monthly Average
 <br>
